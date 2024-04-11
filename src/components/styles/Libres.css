@@ -68,3 +68,15 @@
 .flecha-atras:hover{
     transform: scale(1.1);
 }
+
+@media screen and (max-width: 700px) {
+    .libres__container{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+        align-items: flex-start;
+    }
+
+    .libres__list{
+        flex-direction: row;
+    }
+}
