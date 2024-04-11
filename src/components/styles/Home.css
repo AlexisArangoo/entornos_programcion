@@ -1,0 +1,60 @@
+.home {
+    width: 100%;
+    height: 100vh;
+    background: url('/img/bg/bg-home.png') center center fixed;
+    background-size: cover;
+}
+
+.home__title {
+    width: 100%;
+    text-align: center;
+    padding: 1.5em 1em;
+    font-size: 2.3em;
+    color: rgb(6, 54, 54);
+    text-shadow: -0.2em 0.2em 0.1em #fff;
+}
+
+.home__article {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1em;
+}
+
+.home__article-entornos{
+    text-align: center;
+    background-color: aqua;
+    width: 100%;
+    max-width: 300px;
+    aspect-ratio: 1;
+    border-radius: 0.5em;
+    box-shadow: 0 0 1em #fff;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.home__article-entornos:hover{
+    transform: scale(1.01);
+    cursor: pointer;
+}
+
+.home__article-propiedad {
+    background: url('/img/home/dolar.png') center center;
+    background-size: cover;
+}
+
+.home__article-libres {
+    background: url('/img/home/gratis.jpg') center center;
+    background-size: cover;
+}
+
+.home__article-entornos h2 {
+    font-size: 2em;
+    color: #fff;
+    text-shadow: 0 0 5px #000;
+}
